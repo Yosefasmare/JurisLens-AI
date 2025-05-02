@@ -80,6 +80,7 @@ export function UploadSection() {
     } finally {
       setLoading(false);
       router.push('/dashboard/docs')
+      window.location.reload()
     }
   };
 
